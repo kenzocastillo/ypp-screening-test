@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YouTube Clone – Screening Test
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone 
+cd my-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Framework & Tools Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Lucide React** (icons)
 
-## Learn More
+## Approach & Technology Choices
 
-To learn more about Next.js, take a look at the following resources:
+Built a simplified YouTube clone with three core pages: a video listing page, a video detail page, and a creator profile page. Used Next.js App Router for file-based routing and dynamic segments (`[id]`, `[creator]`). Static sample data is stored in a custom hook (`useVideos`) to keep things simple without a database. Tailwind CSS was used for styling to move fast while keeping the UI consistent. All pages share a fixed sidebar and sticky navbar via the root layout.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## AI Prompts Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+1. Next.js App Router Structure
+- Asked for guidance on organizing a YouTube clone using Next.js App Router.
+- Requested recommendations for route naming conventions, page structure, and component organization.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Layout and Navigation
+- Asked how to implement a shared Navbar and Sidebar across all pages using layout.tsx.
+- Requested assistance with responsive layouts and content positioning alongside a persistent sidebar.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. UI/UX Design
+- Requested modernization of the video listing page UI using Tailwind CSS.
+- Requested improvements to the navbar styling, color scheme, and profile navigation.
+- Asked for responsive design recommendations for desktop, tablet, and mobile devices.
+
+4. Video Listing Page
+- Requested generation of mock video data for development and testing.
+- Asked for guidance on creating reusable video card components and responsive grid layouts.
+
+5. Video Detail Page
+- Requested assistance designing an individual video page similar to YouTube's watch page.
+- Asked for implementation ideas for recommended videos and responsive layouts.
+
+6. Profile Page
+- Requested creation of a profile page accessible from the navbar.
+- Asked for responsive profile page layouts and modern styling patterns.
+
+7. TypeScript and React
+- Asked for help resolving TypeScript errors related to props and custom hooks.
+- Requested guidance on React hooks usage, component structure, and code organization.
+
+8. Responsive Design
+- Asked for recommendations on adapting layouts for mobile, tablet, and desktop breakpoints using Tailwind CSS.
+
+9. General Development Support
+- Requested code reviews, UI refinements, layout troubleshooting, and best-practice recommendations throughout development.
