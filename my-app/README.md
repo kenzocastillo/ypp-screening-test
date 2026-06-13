@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Approach & Technology Choices
 
-Built a simplified YouTube clone with three core pages: a video listing page, a video detail page, and a creator profile page. Used Next.js App Router for file-based routing and dynamic segments (`[id]`, `[creator]`). Static sample data is stored in a custom hook (`useVideos`) to keep things simple without a database. Tailwind CSS was used for styling to move fast while keeping the UI consistent. All pages share a fixed sidebar and sticky navbar via the root layout.
+Built a simplified YouTube clone with three core pages: a video listing page, a video detail page, and a creator profile page. Used Next.js App Router for file-based routing and dynamic segments (`[id]`). Static sample data is stored in a custom hook (`useVideos`) to keep things simple without a database. Tailwind CSS was used for styling to move fast while keeping the UI consistent. All pages share a fixed sidebar and sticky navbar via the root layout.
 
 ## AI Prompts Used
 
